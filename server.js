@@ -57,7 +57,7 @@ app.post("/login", async (req, res) => {
 
 // Serve the HTML file
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "index.html"));
+  res.sendFile(path.join(__dirname, "inde.html"));
 });
 
 app.listen(port, () => {
